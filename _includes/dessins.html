@@ -1,0 +1,13 @@
+<section>
+  <div class="project-container">
+    {% for dessin in site.data.settings.dessins %}
+      <a href="{{ site.github.url }}/dessins/{{ dessin.url }}">
+        <div class="project-unit" data-folder="{{ site.github.url }}/dessins/{{ dessin.url }}" style="background-image: url({{ site.github.url }}/assets/img/dessins/{{ dessin.url }}/maindrawing.jpg)">
+          <div class="project-overlay">
+            <strong>{{ project.name }} <i class="fa fa-arrow-right" aria-hidden="true"></i></strong>
+          </div>
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+</section>

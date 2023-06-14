@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<style>
+  body {
+    background-image: url('/images/200.jpg');
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: center;
+  }
+
+  @media (max-width: 900px) {
+    body {
+      background-size: cover;
+    }
+  }
+</style>
+
+<body>
+  <div class="about-content">
+    <br> <br>
+    {{ content }}
+  </div>
+</body>
