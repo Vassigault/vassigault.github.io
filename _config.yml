@@ -7,6 +7,6 @@ plugins:   [jekyll-sitemap, jekyll-feed,  jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 
-title:		   "MacroScope"
-description: "Macroscope: Portefolio de Geoffrey Migault, vous pouvez y voir une sélection de photos ainsi que des dessins."
-author:      "Geoffrey Migault"
+title:		   "Coeur de bois"
+description: "Coeur de bois: Site de présentation du travail de Vassili Migault, artisan ébéniste, menuisier. Fabrication de meubles et industries connexes de l'ameublement. 24 grand rue 79170 Asnieres-en-poitou "
+author:      "Vassili Migault"

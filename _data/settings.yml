@@ -2,8 +2,8 @@
 # General Site Settings
 
 menu:
-- {name: 'Photos', url: 'photo'}
-- {name: 'Dessins', url: 'dessin'}
+- {name: 'Intérieur', url: 'photo'}
+- {name: 'Extérieur', url: 'dessin'}
 - {name: 'Contact',  url: 'contact'}
 - {name: 'A propos', url: 'about'}
 
@@ -12,25 +12,12 @@ menu:
 
 projects:
 - {name: 'Humains',   url: 'proj-1'}
-- {name: 'Paysages',   url: 'proj-2'}
-- {name: 'Petites bêtes', url: 'proj-3'}
-- {name: 'Paysages Humains',  url: 'proj-4'}
-- {name: 'Microscope',  url: 'proj-5'}
-- {name: 'Chrysanthèmiste',  url: 'proj-6'}
-- {name: 'Arbres',  url: 'proj-7'}
-- {name: 'Pyrolyse Club',  url: 'proj-8'}
-- {name: 'Léa Renard',  url: 'proj-9'}
-- {name: 'Italcementi',  url: 'proj-10'}
 
 #-------------------------------
 # Dessins Section
 
 dessins:
 - {name: 'Bestiaire',   url: 'dessin-1'}
-- {name: 'Voyages',   url: 'dessin-2'}
-- {name: 'Villages',   url: 'dessin-3'}
-- {name: 'Passages',   url: 'dessin-4'}
-- {name: 'Portraits',   url: 'dessin-5'}
 
 
 
