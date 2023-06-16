@@ -668,13 +668,13 @@ hr {
 /* Links
  * ------------------------------------	*/
 a {
-  color: rgb(0, 170, 0);
+  color: rgb(0, 0, 0);
   text-decoration: none;
   outline: 0;
 }
 
 a:hover, a:focus {
-  color: rgb(0, 230, 0);
+  color: rgb(0, 0, 0);
 }
 
 /* Selection colors (easy to forget)
@@ -756,7 +756,7 @@ header .topnav #myLinks {
   text-align: right;
 }
 header .topnav a {
-  color: rgb(0, 0, 0);
+  color: rgb(206, 166, 126);
   padding: 14px 16px;
   text-decoration: none;
   font-size: 25px;
@@ -770,20 +770,20 @@ header .topnav a.icon {
   top: 0;
 }
 header .topnav a:hover {
-  color: rgb(170, 0, 0);
+  color: rgb(185, 128, 70);
 }
 
 footer {
-  color: black;
+  color: rgb(206, 166, 126);
   height: 130px;
 }
 footer .footer-wrap {
   max-width: 500px;
-  margin: 0px auto 0px;
+  margin: 40px auto 0px;
 }
 footer .footer-wrap .footer-tagline {
   text-align: center;
-  color: rgb(0, 0, 0);
+  color: rgb(206, 166, 126);
   font-size: 24px;
   font-weight: 900;
 }
@@ -796,12 +796,12 @@ footer .footer-wrap .social-media nav {
 }
 footer .footer-wrap .social-media nav a {
   margin: 10px;
-  color: rgb(0, 0, 0);
+  color: rgb(206, 166, 126);
   font-size: 12px;
   font-weight: 700;
 }
 footer .footer-wrap .social-media nav a:hover {
-  color: rgb(150, 0, 0);
+  color: rgb(185, 128, 70);
 }
 
 .project-container {

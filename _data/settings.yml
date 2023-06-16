@@ -11,7 +11,7 @@ menu:
 # Projects Section
 
 projects:
-- {name: 'Humains',   url: 'proj-1'}
+- {name: 'Ligne courbe',   url: 'proj-1'}
 
 #-------------------------------
 # Dessins Section
@@ -25,9 +25,7 @@ dessins:
 # Contact Section
 
 social:
-- {icon: 'github',    link: 'https://github.com/migeoffrey'}
-- {icon: 'gitlab',    link: 'https://gitlab.com/migeoffrey'}
-- {icon: 'envelope',  link: 'mailto:migault@protonmail.com'}
+- {icon: 'envelope',  link: 'mailto:v.migault@hotmail.com'}
 
 # social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
 
@@ -37,7 +35,7 @@ social:
 # NOTE: Providing SEO information will make this website more searchable on the internet.
 
 seo:
-  description: 'Macroscope: Portefolio de Geoffrey Migault, vous pouvez y voir une sélection de photos ainsi que des dessins.'
+  description: ' Coeur de bois: Site de présentation du travail de Vassili Migault, artisan ébéniste, menuisier. Fabrication de meubles et industries connexes de l ameublement. 24 grand rue 79170 Asnieres-en-poitou. '
 
 #-------------------------------
 # Google Analytics Section
