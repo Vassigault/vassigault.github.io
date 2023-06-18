@@ -12,6 +12,7 @@ menu:
 
 projects:
 - {name: 'Ligne courbe',   url: 'proj-1'}
+- {name: 'Quart tournant',   url: 'proj-2'}
 
 #-------------------------------
 # Dessins Section
