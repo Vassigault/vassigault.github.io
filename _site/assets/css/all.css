@@ -747,44 +747,72 @@ h3 {
   text-transform: uppercase;
 }
 
+header {
+  background-color: rgba(255, 255, 255, 0.8);
+}
 header .topnav {
   overflow: hidden;
   position: relative;
+  margin: auto;
+  width: 70%;
 }
 header .topnav #myLinks {
   display: none;
   text-align: right;
 }
 header .topnav a {
-  color: rgb(206, 166, 126);
+  font-family: "Playfair Display", serif;
+  color: rgb(77, 40, 0);
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 40px;
   display: block;
-  font-weight: 900;
+  font-weight: 400;
+  line-height: 0.8;
+}
+header .topnav a1 {
+  font-size: 18px;
 }
 header .topnav a.icon {
   display: block;
   position: absolute;
   right: 0;
-  top: 0;
+  top: 12px;
+  font-size: 35px;
 }
 header .topnav a:hover {
-  color: rgb(185, 128, 70);
+  color: rgb(153, 79, 0);
 }
 
+@media (max-width: 720px) {
+  header .topnav {
+    width: 100%;
+  }
+  header .topnav a {
+    font-size: 35px;
+  }
+  header .topnav a1 {
+    font-size: 14px;
+  }
+  header .topnav a.icon {
+    font-size: 32px;
+    top: 12px;
+  }
+}
 footer {
-  color: rgb(206, 166, 126);
-  height: 130px;
+  background-color: rgba(255, 255, 255, 0.9);
+  font-family: "Playfair Display", serif;
+  height: 90px;
+  color: rgb(77, 40, 0);
 }
 footer .footer-wrap {
   max-width: 500px;
-  margin: 40px auto 0px;
+  margin: -15px auto 0px;
 }
 footer .footer-wrap .footer-tagline {
   text-align: center;
-  color: rgb(206, 166, 126);
-  font-size: 24px;
+  color: rgb(77, 40, 0);
+  font-size: 15px;
   font-weight: 900;
 }
 footer .footer-wrap .social-media {
@@ -796,12 +824,12 @@ footer .footer-wrap .social-media nav {
 }
 footer .footer-wrap .social-media nav a {
   margin: 10px;
-  color: rgb(206, 166, 126);
-  font-size: 12px;
+  color: rgb(77, 40, 0);
+  font-size: 15px;
   font-weight: 700;
 }
 footer .footer-wrap .social-media nav a:hover {
-  color: rgb(185, 128, 70);
+  color: rgb(153, 79, 0);
 }
 
 .project-container {
@@ -893,13 +921,13 @@ body {
 
 .site-container {
   background: rgba(0, 0, 0, 0);
-  width: 1200px;
+  width: 100%;
   margin: auto;
 }
 
 @media (max-width: 1220px) {
   .site-container {
-    width: 95vw;
+    width: 100%;
   }
 }
 .page-content {

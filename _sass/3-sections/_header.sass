@@ -1,25 +1,46 @@
 header
+  background-color: rgba(255, 255, 255, 0.8)
   .topnav
     overflow: hidden
-    position: relative  
+    position: relative 
+    margin: auto
+    width: 70% 
     
   .topnav #myLinks
     display: none
     text-align: right
 
   .topnav a
-    color: rgb(206, 166, 126)
+    font-family: 'Playfair Display', serif
+    color: rgb(77, 40, 0)
     padding: 14px 16px
     text-decoration: none
-    font-size: 25px
+    font-size: 40px
     display: block
-    font-weight: 900
+    font-weight: 400
+    line-height: 0.8
+
+  .topnav a1
+    font-size: 18px
 
   .topnav a.icon
     display: block
     position: absolute
     right: 0
-    top: 0
+    top: 12px
+    font-size: 35px
 
   .topnav a:hover
-    color: rgb(185, 128, 70)
+    color: rgb(153, 79, 0)
+
+@media (max-width: 720px)
+  header
+    .topnav
+      width: 100% 
+    .topnav a
+      font-size: 35px
+    .topnav a1
+      font-size: 14px
+    .topnav a.icon
+      font-size: 32px
+      top: 12px
