@@ -751,6 +751,7 @@ header {
   background-color: rgba(255, 255, 255, 0.8);
 }
 header .topnav {
+  top: -5px;
   overflow: hidden;
   position: relative;
   margin: auto;
@@ -777,7 +778,7 @@ header .topnav a.icon {
   display: block;
   position: absolute;
   right: 0;
-  top: 12px;
+  top: 17px;
   font-size: 35px;
 }
 header .topnav a:hover {
@@ -785,7 +786,11 @@ header .topnav a:hover {
 }
 
 @media (max-width: 720px) {
+  header {
+    height: 70px;
+  }
   header .topnav {
+    top: -12px;
     width: 100%;
   }
   header .topnav a {
@@ -803,7 +808,8 @@ footer {
   background-color: rgba(255, 255, 255, 0.9);
   font-family: "Playfair Display", serif;
   height: 90px;
-  color: rgb(77, 40, 0);
+  font-size: 12px;
+  font-weight: 300;
 }
 footer .footer-wrap {
   max-width: 500px;
@@ -812,7 +818,7 @@ footer .footer-wrap {
 footer .footer-wrap .footer-tagline {
   text-align: center;
   color: rgb(77, 40, 0);
-  font-size: 15px;
+  font-size: 5px;
   font-weight: 900;
 }
 footer .footer-wrap .social-media {
@@ -832,6 +838,11 @@ footer .footer-wrap .social-media nav a:hover {
   color: rgb(153, 79, 0);
 }
 
+@media (max-width: 720px) {
+  footer {
+    height: 75px;
+  }
+}
 .project-container {
   max-width: 750px;
   margin: 0px auto 0px;
@@ -921,6 +932,9 @@ body {
 .site-container {
   width: 100%;
   margin: auto;
+}
+.site-container background {
+  color: rgb(255, 0, 255);
 }
 
 @media (max-width: 1220px) {

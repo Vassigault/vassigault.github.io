@@ -2,8 +2,10 @@ footer
   background-color: rgba(255, 255, 255, 0.9)
   font-family: 'Playfair Display', serif
   height: 90px
+  font:
+    size: 12px
+    weight: 300
   p 
-  color: rgb(77, 40, 0)
   .footer-wrap
     max-width: 500px
     margin: -15px auto 0px
@@ -11,7 +13,7 @@ footer
       text-align: center
       color: rgb(77, 40, 0)
       font:
-        size: 15px
+        size: 5px
         weight: 900
     .social-media
       text-align: center
@@ -26,4 +28,8 @@ footer
             weight: 700
           &:hover
             color: rgb(153, 79, 0)
+
+@media (max-width: 720px)
+  footer
+    height: 75px
 
