@@ -6,7 +6,7 @@ image:
       image-caption:
       image-copyright: (Creative Commons) Geoffrey Migault
       image-number: 1
-    - image_path: /assets/img/projects/proj-1/P_0004.jpg
+    - image_path: /assets/img/projects/proj-1/P_0002.jpg
       image-caption:
       image-copyright: (Creative Commons)  Geoffrey Migault
       image-number: 2
@@ -14,7 +14,7 @@ image:
       image-caption:
       image-copyright: (Creative Commons)  Geoffrey Migault
       image-number: 3
-    - image_path: /assets/img/projects/proj-1/P_0002.jpg
+    - image_path: /assets/img/projects/proj-1/P_0004.jpg
       image-caption:
       image-copyright: (Creative Commons) Geoffrey Migault
       image-number: 4
@@ -23,6 +23,10 @@ image:
       image-copyright: (Creative Commons) Geoffrey Migault
       image-number: 5
     - image_path: /assets/img/projects/proj-1/P_0006.jpg
+      image-caption:
+      image-copyright: (Creative Commons) Geoffrey Migault
+      image-number: 6
+    - image_path: /assets/img/projects/proj-1/P_0007.jpg
       image-caption:
       image-copyright: (Creative Commons) Geoffrey Migault
       image-number: 6

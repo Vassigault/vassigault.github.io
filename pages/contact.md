@@ -6,4 +6,8 @@ permalink: /contact
 
 <br>
 <br>
-Contact:  [migault@protonmail.com](mailto:migault@protonmail.com)
+
+
+Contact:  [v.migault@hotmail.com](mailto:v.migault@hotmail.com)
+
+Téléphone: 0767276565

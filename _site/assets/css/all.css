@@ -734,7 +734,7 @@ fieldset {
   }
 }
 section:nth-child(odd) {
-  background: #e5eaee;
+  background: #ffffff;
   padding-bottom: 100px;
 }
 section:nth-child(odd) h3 {
@@ -786,11 +786,8 @@ header .topnav a:hover {
 }
 
 @media (max-width: 720px) {
-  header {
-    height: 70px;
-  }
   header .topnav {
-    top: -12px;
+    top: -5px;
     width: 100%;
   }
   header .topnav a {
@@ -801,7 +798,7 @@ header .topnav a:hover {
   }
   header .topnav a.icon {
     font-size: 32px;
-    top: 12px;
+    top: 17px;
   }
 }
 footer {

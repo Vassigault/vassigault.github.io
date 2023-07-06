@@ -2,8 +2,8 @@
 # General Site Settings
 
 menu:
-- {name: 'Intérieur', url: 'photo'}
-- {name: 'Extérieur', url: 'dessin'}
+- {name: 'Ebenisterie', url: 'photo'}
+- {name: 'Menuiserie', url: 'dessin'}
 - {name: 'Contact',  url: 'contact'}
 - {name: 'A propos', url: 'about'}
 
@@ -12,13 +12,14 @@ menu:
 
 projects:
 - {name: 'Ligne courbe',   url: 'proj-1'}
-- {name: 'Quart tournant',   url: 'proj-2'}
+- {name: 'Cuisine extérieur',   url: 'proj-2'}
 
 #-------------------------------
 # Dessins Section
 
 dessins:
-- {name: 'Bestiaire',   url: 'dessin-1'}
+- {name: 'Quart tournant',   url: 'proj-1'}
+- {name: 'Portillon',   url: 'proj-2'}
 
 
 

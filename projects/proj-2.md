@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Quart tournant'
+title: 'Cuisine exterieur'
 image: 
     - image_path: /assets/img/projects/proj-2/P_0001.jpg
       image-caption:
@@ -26,4 +26,16 @@ image:
       image-caption:
       image-copyright: (Creative Commons) Geoffrey Migault
       image-number: 6
+    - image_path: /assets/img/projects/proj-2/P_0007.jpg
+      image-caption:
+      image-copyright: (Creative Commons) Geoffrey Migault
+      image-number: 7
+    - image_path: /assets/img/projects/proj-2/P_0008.jpg
+      image-caption:
+      image-copyright: (Creative Commons)  Geoffrey Migault
+      image-number: 8
+    - image_path: /assets/img/projects/proj-2/P_0009.jpg
+      image-caption:
+      image-copyright: (Creative Commons)  Geoffrey Migault
+      image-number: 9
 ---
